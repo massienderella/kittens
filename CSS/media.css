@@ -1,0 +1,44 @@
+@media screen{
+
+	.background{
+		background-image: url(../Assets/img/sunny-day.jpg);
+		background-size: cover
+	}
+
+	.kitten{
+		margin-left: 30%;
+    	margin-top: 27.5%;
+
+	}
+
+}
+
+@media (min-width: 901px) and (max-width: 1000px){
+
+	.background{
+		background-image: url(../Assets/img/night.jpg);
+		background-size: cover;
+	}
+
+	.kitten{
+		content: url(../Assets/img/kitten-small.png);
+		margin-left: 55vh;
+    	margin-top: 50vh;
+	}
+}
+
+@media (min-width: 1px) and (max-width: 900px){
+
+	.background{
+	background-image: url(../Assets/img/dawn.png);
+	background-size: cover;
+	}
+
+	.kitten{
+		content: url(../Assets/img/kitten-large.png);
+		width: 70%;
+		height: auto;
+		margin-top: 60vh;
+    	margin-left: 30vh;
+	}
+}
